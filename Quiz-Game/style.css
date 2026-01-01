@@ -23,12 +23,11 @@ body{
   padding: 20px;
   position: relative;
   box-shadow: 9px 9px 10px #00000095 ;
-  overflow: hidden;
 }
 
 
 .screen {
-  display: none;  
+  display: non;  
   padding: 2rem;
   text-align: center;
 }
@@ -36,8 +35,16 @@ body{
 .screen-active {
   display: block;
   text-align: center;
-  padding: 2rem;
-  
+  padding: 2rem; 
+
+}
+.screen-active h1{
+  font-size: 2rem;
+  color: #e35214;
+  margin-bottom: 1rem;
+}
+.quiz-header{
+  margin-bottom: 2rem;
 }
 
 
