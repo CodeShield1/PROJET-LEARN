@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e7b9a2;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #ece2db;
+  width:100%;
+  max-width: 800px;
+  border-radius: 3dvh;
+  border: 1px solid #bcafaf;
+  padding: 20px;
+  position: relative;
+  box-shadow: 9px 9px 10px #00000095 ;
+  overflow: hidden;
+}
+
+
+.screen {
+  display: none;  
+  padding: 2rem;
+  text-align: center;
+}
+
+.screen-active {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  
+}
+
+
+
+
+
+
+
+
+/* By messaging ChatGPT, an AI chatbot, you agree to our Terms and have read our Privacy Policy.
+Don't share sensitive info. Chats may be reviewed and used to train our models. Learn more */
