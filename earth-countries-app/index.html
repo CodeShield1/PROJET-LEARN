@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globe Interactif - Pays & Infos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="globe-section">
+        <div id="globeViz"></div>
+        <p class="hint">Clique sur un pays pour afficher ses informations.</p>
+      </section>
+
+      <aside class="info-panel" id="infoPanel">
+        <h1>🌍 Globe interactif</h1>
+        <p class="intro">
+          La Terre tourne automatiquement. Clique sur une zone colorée pour voir les
+          données du pays.
+        </p>
+        <div id="countryInfo" class="country-info">
+          <h2>En attente...</h2>
+          <p>Sélectionne un pays sur le globe.</p>
+        </div>
+      </aside>
+    </main>
+
+    <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/globe.gl"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
